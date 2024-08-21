@@ -1,0 +1,39 @@
+Read Me
+===================================================================================================================================
+Password Strength Analysis
+Overview
+This source code analyses password strength using a dataset of 10,000 randomly generated passwords. The goal is to identify what makes a password strong, focusing on factors like length and the inclusion of special characters.
+
+Dataset
+Source: Kaggle
+Attributes:
+Password: The password itself
+Length: Number of characters
+Uppercase: Whether it contains uppercase letters
+Lowercase: Whether it contains lowercase letters
+Numbers: Whether it contains numbers
+Special Characters: Whether it contains special characters
+Strength: Labeled as 'Weak,' 'Medium,' or 'Strong'
+Figures/Graphs
+The analysis generates several figures, including:
+
+Password Strength Distribution
+Password Length Distribution
+Histogram of Password Lengths with Quartiles
+Box Plot of Password Lengths by Strength
+Scatter Plot of Password Length and Strength
+Bar Charts and Pie Charts for Character Types
+Statistical Test Results (T-Tests, Chi-Square)
+
+Requirements
+
+Run the script.
+
+Upload the file "passwords_dataset.CSV" when prompted.
+
+The script will execute and generate figures.
+
+
+Acknowledgments
+Kaggle for the dataset.
+Libraries: pandas, matplotlib, seaborn, scipy.
