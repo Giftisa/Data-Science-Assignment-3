@@ -31,7 +31,7 @@ Run the script.
 
 Upload the file "passwords_dataset.CSV" when prompted.
 
-The script will execute and generate figures.
+The script will execute and generate graphs/plots.
 
 
 Acknowledgments
